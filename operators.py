@@ -70,3 +70,14 @@ print("ABC" >= "AAC") # True
 print("A" > "34") # True
 # Comparison between two strings is valid
 # In the above statement, "A" is 65 and "3" is 51, so returns True
+
+
+
+# Logical Operators (and, or, not)
+print(123 > 100 and 34 == 34 and 45 < 90) # True
+print(123 > 100 and 34 == 34 and 45 < 90 and 12 > 20) # False
+
+print(12 != 12 or 23 == 45 or 67 == 56 or 10 > 5) # True
+
+print(not 12 == 12) # False
+
